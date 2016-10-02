@@ -1,0 +1,28 @@
+﻿Build started 2016/1/26 19:49:36.
+     1>Project "D:\Garrett\CS\ACM\purple_book\Chapter5\Example\UVa136\UVa136\UVa136.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UVa136.cpp
+         UVa136.cpp
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(11): error C2065: 'greater' : undeclared identifier
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(11): error C2275: 'LL' : illegal use of this type as an expression
+                 d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(7) : see declaration of 'LL'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(11): error C2974: 'std::priority_queue' : invalid template argument for '_Pr', type expected
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\queue(238) : see declaration of 'std::priority_queue'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(11): error C2143: syntax error : missing ';' before '>'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(13): error C2065: 'pq' : undeclared identifier
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(13): error C2228: left of '.push' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(16): error C2065: 'pq' : undeclared identifier
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(16): error C2228: left of '.top' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(17): error C2065: 'pq' : undeclared identifier
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(17): error C2228: left of '.pop' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(26): error C2065: 'pq' : undeclared identifier
+     1>d:\garrett\cs\acm\purple_book\chapter5\example\uva136\uva136\uva136.cpp(26): error C2228: left of '.push' must have class/struct/union
+                 type is 'unknown-type'
+     1>Done Building Project "D:\Garrett\CS\ACM\purple_book\Chapter5\Example\UVa136\UVa136\UVa136.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31
