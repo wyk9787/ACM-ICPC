@@ -1,55 +1,55 @@
-#include <iostream>
-#include <string>
-#include <cctype>
-#include <cstdlib>
-#include <sstream>
 #include <algorithm>
+#include <cctype>
 #include <cmath>
-#include <vector>
-#include <set>
+#include <cstdlib>
+#include <iostream>
 #include <map>
-#include <stack>
 #include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-int main(int argc, char const *argv[]) {
+struct bids {
+  int index;
+  int bids;
+};
 
+int main(int argc, char const *argv[]) {
+  struct bids b[200005];
   int n;
   cin >> n;
-  vector<int> vec(200005);
-  int x = n;
-  while(x--){
-    int temp;
-    cin >> temp;
-    cin >> vec[temp];
+  for (int i = 0; i < n; i++) {
+    cin >> b[i].index >> b[i].bids;
   }
   int m;
   cin >> m;
   int absence[200005][200005];
   int j = 0;
-  while(m--){
+  while (m--) {
     int temp;
     cin >> temp;
     absence[j][0] = temp;
-    for(int i = 1; i <= temp; i++){
+    for (int i = 1; i <= temp; i++) {
       cin >> absence[j][i];
     }
     j++;
   }
-
-  for(int i = 0; i < m; i++){
-    vector<int> tmp = vec;
-    for(int j = 0; j < absence[i][0]; j++){
-      tmp[absence[i][j]] = 0;
+  for (int i = 0; i < m; i++) {
+    struct bids *temp = b;
+    for (int k = 0; k < n; k++) {
+      for (int j = 1; j <= absence[i][0]; j++) {
+        if (b[])
+      }
+    ]
+    for (int i = n - 1; i >= 0; i--) {
+      if (tmp[i] != 0)
+        if ()
     }
-    int max = -1;
-    for(int i = n-1; i >= 0; i--){
-      if(tmp[i] != 0)
-        
     }
 
+    return 0;
   }
-
-  return 0;
-}
