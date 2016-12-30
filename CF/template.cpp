@@ -1,15 +1,17 @@
-#include <iostream>
-#include <string>
-#include <cctype>
-#include <cstdlib>
-#include <sstream>
 #include <algorithm>
+#include <cctype>
 #include <cmath>
-#include <vector>
-#include <set>
+#include <cstdlib>
+#include <iostream>
 #include <map>
-#include <stack>
 #include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <string>
+#include <vector>
+
+#include <bits/stdc++.h>
 
 using namespace std;
 
