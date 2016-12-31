@@ -46,10 +46,6 @@ int main(int argc, char const *argv[]) {
   }
   sort(ss.begin(), ss.end() - 1, myCompare);
   int min = 0, max = 0, interval = 0, count = 0;
-  // for (int i = 0; i < n; i++) {
-  //   cout << ss[i] << ' ';
-  // }
-  // cout << endl;
   for (int i = 0; i < ss.size() - 1; i++) {
     count++;
     interval++;
