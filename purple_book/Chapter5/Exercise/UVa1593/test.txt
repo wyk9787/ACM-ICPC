@@ -1,0 +1,19 @@
+  start:  integer;   // begins here
+stop: integer; //  ends here
+ s:  string;
+c:   char; // temp
+
+
+123asd sda s da
+  start:  integer;   // begins here
+stop: integer; //  ends here
+ s:  string;
+c:   char; // temp
+    asdsad 231s :2 21sad
+sd  sdasd 123  231234
+fdf   asd sda sdad ssssssssssssssssss 213
+sdfsddfs sdaf   s s dc 
+aaa sss sssda
+a ss x
+das s 
+   sda s
